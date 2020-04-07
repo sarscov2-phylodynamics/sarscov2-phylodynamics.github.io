@@ -52,8 +52,6 @@ categories: SEIJR Weifang China
 
 
 
-
-
 ![Figure 3: Reproduction number through time]({{ site.url }}/reports/20200405-222034-1c667185/Rt.png)
 
 
