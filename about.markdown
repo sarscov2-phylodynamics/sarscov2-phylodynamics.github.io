@@ -4,15 +4,14 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+We are a group of scientists at the [MRC Centre for Global Infectious Disease Analysis](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis) at Imperial College London seeking to understand epidemiology of SARS CoV 2 through the lens of evolution and phylogenomics.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Who we are: 
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+- [Manon Ragonnet](https://www.imperial.ac.uk/people/manonragonnet)
+- [Fabricia Nascimento](https://www.imperial.ac.uk/people/f.ferreira-do-nascimento)
+- Lily Geidelberg <!-- url? --> 
+- [Olivia Boyd](https://www.imperial.ac.uk/people/o.boyd)
+- [David Jorgensen](https://www.imperial.ac.uk/people/david.jorgensen13)
+- [Igor Siveroni](https://www.imperial.ac.uk/people/i.siveroni)
+- [Erik Volz](https://www.imperial.ac.uk/people/e.volz)
