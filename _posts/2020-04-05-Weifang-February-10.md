@@ -42,7 +42,6 @@ categories: SEIJR Weifang China
 
 * Cumulative confirmed infections reported at 2020-02-10: **38**
 
-* Cumulative number of active infections at 2020-02-10:  
 
 
 
