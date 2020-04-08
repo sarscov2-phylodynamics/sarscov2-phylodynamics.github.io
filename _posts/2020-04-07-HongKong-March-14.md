@@ -59,7 +59,7 @@ output:
 
 ![plot of chunk daily estimated infections through time]({{ site.url }}/assets/20200407-224313-c37a4344/Daily.png)
 
-*Figure 2: Daily estimated infections through time. Points represent reported cases in Hongkong. The dashed line indicates the date of last sample in Hong Kong in this analysis.*
+*Figure 1: Daily estimated infections through time. Points represent reported cases in Hongkong. The dashed line indicates the date of last sample in Hong Kong in this analysis.*
 
 
 
@@ -79,7 +79,7 @@ Reproduction number at last sample (2020-03-14): **3.59 [2.6-4.71]** median [95%
  |   2.5%   |        2.78         |         0.169         |        2.17         |
  |  97.5%   |        5.09         |         0.320         |         4.1          |
  
- Table: Table 1: Reproduction number, growth rate and doubling times (continued below)
+ Table 1: Reproduction number, growth rate and doubling times (continued below)
  
   
 
@@ -92,7 +92,7 @@ Reproduction number at last sample (2020-03-14): **3.59 [2.6-4.71]** median [95%
 
 ![plot of chunk mcc_tree]({{ site.url }}/assets/20200407-224313-c37a4344/mcc.png)
 
-*Figure 4: Time scaled phylogeny co-estimated with epidemiological parameters. The colour of the tips corresponds to location sampling; red tips were sampled from within Hongkong, blue tips from outside.*
+*Figure 2: Time scaled phylogeny co-estimated with epidemiological parameters. The colour of the tips corresponds to location sampling; red tips were sampled from within Hongkong, blue tips from outside.*
 
 
 
