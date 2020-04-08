@@ -59,7 +59,7 @@ output:
 
 ![plot of chunk daily estimated infections through time]({{ site.url }}/assets/20200407-224313-c37a4344/Daily.png)
 
-*Figure 1: Daily estimated infections through time. Points represent reported cases in Hongkong. The dashed line indicates the date of last sample in Hong Kong in this analysis.*
+*Figure 1: Daily estimated infections through time. Points represent reported cases in Hongkong. The dashed line indicates the date of last sample in this analysis.*
 
 
 
