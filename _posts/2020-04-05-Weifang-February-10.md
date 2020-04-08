@@ -71,7 +71,7 @@ Reproduction number at last sample (2020-03-09): **0.0911 [0.0129-0.532]** media
   97.5%    |        4.79          |         0.301          |         7.96         
 -----------|----------------------|------------------------|----------------------
 
-Table: Table 1: Reproduction number, growth rate and doubling times
+Table 1: Reproduction number, growth rate and doubling times
 
 
 
@@ -98,7 +98,6 @@ Table: Table 1: Reproduction number, growth rate and doubling times
 
 Details on methods and priors can be [found here](http://whoinfectedwhom.org/seijr0.1.0_methods.pdf).
 
-##### Additional notes about methods: [Insert details about any deviation from the main pipeline, like sample selection, changes to the model etc, where you retrieved other data]
 
 Model version: seijr0.0.0
 
