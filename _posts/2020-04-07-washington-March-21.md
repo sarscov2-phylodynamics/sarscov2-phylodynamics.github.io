@@ -44,7 +44,7 @@ output:
   
 * **152 whole genomes** sampled from **within Washington**
 * **68 whole genomes** sampled from outside of **Washington**
-* Samples within Washington were collected between **2019-12-30** and **2020-03-21**
+* Samples were collected between **2019-12-30** and **2020-03-21**
 
 
 ## How many are infected in Washington?
