@@ -29,7 +29,7 @@ categories: SEIJR Weifang China
   
 * **20 whole genomes** sampled from **within Weifang**
 * **50 whole genomes** sampled from outside of **Weifang**
-* Samples within Weifang were collected between **2020-01-23** and **2020-03-09**
+* Samples within Weifang were collected between **2020-01-24** and **2020-02-10**
 
 ## How many are infected in Weifang?
 
@@ -38,12 +38,11 @@ categories: SEIJR Weifang China
 
 ![Figure 1: Cumulative estimated infections through time. Points represent reported cases in the region.]({{ site.url }}/assets/20200405-222034-1c667185/SEIJR_plot_size.png)
 
-* Estimated cumulative infections at last sample (2020-03-09): **223 [38-827]** median [95%CI]
+* Estimated cumulative infections at last sample (2020-02-10): **223 [38-827]** median [95%CI]
 
-* Cumulative confirmed infections reported at 2020-03-09: 
-****  
+* Cumulative confirmed infections reported at 2020-02-10: **38**
 
-* Cumulative number of active infections at 2020-03-09:  
+* Cumulative number of active infections at 2020-02-10:  
 
 
 
@@ -55,7 +54,7 @@ categories: SEIJR Weifang China
 ![Figure 3: Reproduction number through time]({{ site.url }}/assets/20200405-222034-1c667185/Rt.png)
 
 
-Reproduction number at last sample (2020-03-09): **0.0911 [0.0129-0.532]** median [95% CrI]
+Reproduction number at last sample (2020-02-10): **0.0911 [0.0129-0.532]** median [95% CrI]
 
 
 ## How quickly has the epidemic in Weifang grown?
