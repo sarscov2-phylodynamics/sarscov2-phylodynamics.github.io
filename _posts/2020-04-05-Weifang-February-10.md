@@ -54,7 +54,7 @@ categories: SEIJR Weifang China
 
 ![Figure 3: Reproduction number through time]({{ site.url }}/assets/20200405-222034-1c667185/Rt.png)
 
-*Figure 3: Reproduction number through time. The dashed line indicates the date of last sample in Washington in this analysis.*
+*Figure 3: Reproduction number through time. The vertical dashed line indicates the date of last sample in Washington in this analysis.*
 
 Reproduction number at last sample (2020-02-10): **0.0911 [0.0129-0.532]** median [95% CrI]
 
