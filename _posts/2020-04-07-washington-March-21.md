@@ -75,7 +75,7 @@ output:
 
 ![plot of chunk Rt]({{ site.url }}/assets/20200407-224200-8b69aea1/Rt.png)
 
-*Figure 3: Reproduction number through time. The dashed line indicates the date of last sample in Washington in this analysis.*
+*Figure 3: Reproduction number through time. The vertical dashed line indicates the date of last sample in Washington in this analysis.*
 
 Reproduction number at last sample (2020-03-21): **2.39 [0.419-2.9]** median [95% CrI]
 
@@ -92,7 +92,7 @@ Reproduction number at last sample (2020-03-21): **2.39 [0.419-2.9]** median [95
  |   2.5%   |        2.29         |         0.130         |         3.37         |
  |  97.5%   |        3.28         |         0.206         |         5.33         |
  
- Table: Table 1: Reproduction number, growth rate and doubling times (continued below)
+ Table 1: Reproduction number, growth rate and doubling times (continued below)
  
  
  
