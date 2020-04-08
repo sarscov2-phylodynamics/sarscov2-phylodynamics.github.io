@@ -44,7 +44,7 @@ output:
   
 * **27 whole genomes** sampled from **within Hongkong**
 * **43 whole genomes** sampled from outside of **Hongkong**
-* Samples within Hongkong were collected between **2020-01-21** and **2020-03-14**
+* Samples were collected between **2020-01-21** and **2020-03-14**
 
 
 ## How many are infected in Hong Kong?
