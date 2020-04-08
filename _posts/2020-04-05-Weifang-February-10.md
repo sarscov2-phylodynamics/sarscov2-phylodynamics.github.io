@@ -80,7 +80,7 @@ Table 1: Reproduction number, growth rate and doubling times
 
 
 
-![Figure 4: Time scaled phylogeny co-estimated with epidemiological parameters. The colour of the tips corresponds to location sampling; red tips were sampled from within the region, blue tips from outside]({{ site.url }}/assets/20200405-222034-1c667185/mcc.png){width=400px}
+![Figure 4: Time scaled phylogeny co-estimated with epidemiological parameters. The colour of the tips corresponds to location sampling; red tips were sampled from within the region, blue tips from outside]({{ site.url }}/assets/20200405-222034-1c667185/mcc.png)
 
 
 
