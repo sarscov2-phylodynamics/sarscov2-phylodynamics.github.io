@@ -36,7 +36,7 @@ categories: SEIJR Weifang China
 
 
 
-![Figure 1: Cumulative estimated infections through time. Points represent reported cases in the region.]({{ site.url }}/reports/20200405-222034-1c667185/SEIJR_plot_size.png)
+![Figure 1: Cumulative estimated infections through time. Points represent reported cases in the region.]({{ site.url }}/assets/20200405-222034-1c667185/SEIJR_plot_size.png)
 
 * Estimated cumulative infections at last sample (2020-03-09): **223 [38-827]** median [95%CI]
 
@@ -47,12 +47,12 @@ categories: SEIJR Weifang China
 
 
 
-![Figure 2: Daily estimated infections through time. Points represent reported cases in the region.]({{ site.url }}/reports/20200405-222034-1c667185/Daily.png)
+![Figure 2: Daily estimated infections through time. Points represent reported cases in the region.]({{ site.url }}/assets/20200405-222034-1c667185/Daily.png)
 
 
 
 
-![Figure 3: Reproduction number through time]({{ site.url }}/reports/20200405-222034-1c667185/Rt.png)
+![Figure 3: Reproduction number through time]({{ site.url }}/assets/20200405-222034-1c667185/Rt.png)
 
 
 Reproduction number at last sample (2020-03-09): **0.0911 [0.0129-0.532]** median [95% CrI]
@@ -81,7 +81,7 @@ Table: Table 1: Reproduction number, growth rate and doubling times
 
 
 
-![Figure 4: Time scaled phylogeny co-estimated with epidemiological parameters. The colour of the tips corresponds to location sampling; red tips were sampled from within the region, blue tips from outside]({{ site.url }}/reports/20200405-222034-1c667185/mcc.png){width=400px}
+![Figure 4: Time scaled phylogeny co-estimated with epidemiological parameters. The colour of the tips corresponds to location sampling; red tips were sampled from within the region, blue tips from outside]({{ site.url }}/assets/20200405-222034-1c667185/mcc.png){width=400px}
 
 
 
