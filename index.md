@@ -1,4 +1,4 @@
-![]({{ site.url }}/MRC_GIDA_Imperial_colour_web2.png)
+![]({{ site.url }}/imperialvirus-tree-logo-text.png)
 
 Our mission is to advance epidemiological surveillance of COVID19 by studying the evolution of SARS Coronavirus 2. 
 By using publicly available virus genomic data, phylogenetic analysis and advanced population genetic modeling, we aim to shed light on
