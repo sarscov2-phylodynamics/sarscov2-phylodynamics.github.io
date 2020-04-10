@@ -27,13 +27,16 @@ output:
 
 
 
+### Report author: Lily Geidelberg
+
+### Authors: Erik M Volz, Han Fu 1 , Haowei Wang 1 , Xiaoyue Xi 2 , Wei Chen 3 , Dehui Liu 3 , Yingying Chen 3 , Mengmeng Tian 3 , Wei Tan 4 , Junjie Zai 5 , Wanying Sun 6 , Jiandong Li 6 , Junhua Li 6 , Xingguang Li 7, Qing Nie 3**
+
+  1. Department of Infectious Disease Epidemiology and MRC Centre for Global Infectious Disease Analysis, Imperial College London,2.Department of Mathematics, Imperial College London,3. Department of Microbiology, Weifang Center for Disease Control and Prevention, Weifang, 4. Department of Respiratory Medicine, Weifang People's Hospital, Weifang, 5. Immunology Innovation Team, School of Medicine, Ningbo University, Ningbo,6. Shenzhen Key Laboratory of Unknown Pathogen Identification, BGI-Shenzhen, Shenzhen, 7. Hubei Engineering Research Center of Viral Vector, Wuhan University of Bioengineering, Wuhan, China
+
 
 ### Primary author: Lily Geidelberg
 
 ### Report prepared on 2020-04-09
-
-#### On behalf of the MRC GIDA COVID-19 phylodynamics working group at Imperial College London: Lily Geidelberg, Olivia Boyd, Manon Ragonnet, David Jorgensen,  Igor Siveroni, Erik Volz
-
 
 
 
