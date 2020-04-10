@@ -1,4 +1,6 @@
 ---
+title: "Phylodynamic Analysis: Weifang,: 2020-02-10 "
+date: April 09, 2020
 urlcolor: blue
 linkcolor: blue
 output:
@@ -21,12 +23,6 @@ output:
 
 
 
-
-
----
-title: "Phylodynamic Analysis: Weifang,: 2020-02-10 "
-date: April 09, 2020
----
 
 
 
@@ -96,17 +92,14 @@ Reproduction number at last sample (2020-02-10): **0.0911 [0.0129-0.532]** media
 
 
 
-```
-
-
 | Quantile | Reproduction number | Growth rate (per day) | Doubling time (days) |
 |:--------:|:-------------------:|:---------------------:|:--------------------:|
 |   50%    |        3.12         |         0.194         |         3.57         |
 |   2.5%   |        1.81         |        0.0871         |         2.3          |
 |  97.5%   |        4.79         |         0.301         |         7.96         |
 
-Table: Reproduction number, growth rate and doubling times
-```
+Table 1: Reproduction number, growth rate and doubling times
+
 
 
 
@@ -128,22 +121,6 @@ Table: Reproduction number, growth rate and doubling times
 <!-- #### (optional) Number of introductions into Weifang (someone needs to write code to compute this) -->
 
 
-
-
-## Predicted cumulative infections over next 14 days (assuming exponential growth):
-
-
-
-![plot of chunk predicted infections through time]({{ site.url }}/assets/20200409-105433-91378a08/cumu_inf_exp_model.png)
-
-*Figure 5: Cumulative estimated infections. The dashed line indicates the date of last sample in Weifang in this analysis. The points represent reported cases in Weifang.*
-
-Based on an estimated growth rate of 0.194 [0.0871 - 0.301] median [95% CrI]:  
-
-We estimate cumulative number of infections at last sample (2020-02-10) as: 285 [13 - 5327]
-
-We estimate number of infections at 2020-03-16 (35 days after last sample) as:
-48669 [100 - 25305030]  
 
 
 

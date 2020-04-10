@@ -1,4 +1,6 @@
 ---
+title: "Phylodynamic Analysis: Washington State, USA: 2020-03-15"
+date: April 09, 2020
 urlcolor: blue
 linkcolor: blue
 output:
@@ -16,17 +18,6 @@ output:
     highlight: "tango"
 ---
 
-
-
-
-
-
-
-
----
-title: "Phylodynamic Analysis: Washington,: 2020-03-15 "
-date: April 09, 2020
----
 
 
 
@@ -96,8 +87,6 @@ Reproduction number at last sample (2020-03-15): **2.39 [0.419-2.9]** median [95
 
 
 
-```
-
 
 | Quantile | Reproduction number | Growth rate (per day) | Doubling time (days) |
 |:--------:|:-------------------:|:---------------------:|:--------------------:|
@@ -106,8 +95,6 @@ Reproduction number at last sample (2020-03-15): **2.39 [0.419-2.9]** median [95
 |  97.5%   |        3.28         |         0.206         |         5.33         |
 
 Table: Reproduction number, growth rate and doubling times
-```
-
 
 
 
