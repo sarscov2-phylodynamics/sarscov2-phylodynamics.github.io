@@ -44,7 +44,7 @@ output:
   
 * **27 whole genomes** sampled from **within Hongkong**
 * **43 whole genomes** sampled from outside of **Hongkong**
-* Samples within Hongkong were collected between **2020-01-21** and **2020-03-14**
+* Samples were collected between **2020-01-21** and **2020-03-14**
 
 
 ## How many are infected in Hong Kong?
@@ -59,7 +59,7 @@ output:
 
 ![plot of chunk daily estimated infections through time]({{ site.url }}/assets/20200407-224313-c37a4344/Daily.png)
 
-*Figure 1: Daily estimated infections through time. Points represent reported cases in Hongkong. The dashed line indicates the date of last sample in Hong Kong in this analysis.*
+*Figure 1: Daily estimated infections through time. Points represent reported cases in Hongkong. The dashed line indicates the date of last sample in this analysis.*
 
 
 

@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+![]({{ site.url }}/MRC_GIDA_Imperial_colour_web2.png)
+
 We are a group of scientists at the [MRC Centre for Global Infectious Disease Analysis](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis) at Imperial College London seeking to understand epidemiology of SARS CoV 2 through the lens of evolution and phylogenomics.
 
 Who we are: 

@@ -44,7 +44,7 @@ output:
   
 * **152 whole genomes** sampled from **within Washington**
 * **68 whole genomes** sampled from outside of **Washington**
-* Samples within Washington were collected between **2019-12-30** and **2020-03-21**
+* Samples were collected between **2019-12-30** and **2020-03-21**
 
 
 ## How many are infected in Washington?
@@ -55,7 +55,7 @@ output:
 
 ![plot of chunk Cumulative estimated infections through time]({{ site.url }}/assets/20200407-224200-8b69aea1/SEIJR_plot_size.png)
 
-*Figure 1: Cumulative estimated infections through time. Points represent reported cases in Washington. The dashed line indicates the date of last sample in Washington in this analysis.*
+*Figure 1: Cumulative estimated infections through time. Points represent reported cases in Washington. The dashed line indicates the date of last sample in this analysis.*
 
 
 * Estimated cumulative infections at last sample (2020-03-21): **39962 [8790-195314]** median [95%CI]
@@ -67,7 +67,7 @@ output:
 
 ![plot of chunk daily estimated infections through time]({{ site.url }}/assets/20200407-224200-8b69aea1/Daily.png)
 
-*Figure 2: Daily estimated infections through time. Points represent reported cases in Washington. The dashed line indicates the date of last sample in Washington in this analysis.*
+*Figure 2: Daily estimated infections through time. Points represent reported cases in Washington. The dashed line indicates the date of last sample in this analysis.*
 
 
 
@@ -75,7 +75,7 @@ output:
 
 ![plot of chunk Rt]({{ site.url }}/assets/20200407-224200-8b69aea1/Rt.png)
 
-*Figure 3: Reproduction number through time. The vertical dashed line indicates the date of last sample in Washington in this analysis.*
+*Figure 3: Reproduction number through time. The vertical dashed line indicates the date of last sample in this analysis.*
 
 Reproduction number at last sample (2020-03-21): **2.39 [0.419-2.9]** median [95% CrI]
 
