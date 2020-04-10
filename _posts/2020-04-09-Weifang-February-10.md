@@ -1,5 +1,5 @@
 ---
-title: "Phylodynamic Analysis: Weifang,: 2020-02-10 "
+title: "Phylodynamic Analysis: Weifang,China: 2020-02-10 "
 date: April 09, 2020
 urlcolor: blue
 linkcolor: blue
