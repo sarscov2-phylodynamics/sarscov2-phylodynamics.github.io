@@ -1,5 +1,5 @@
 ---
-title: "Phylodynamic Analysis"
+title: "Phylodynamic Analysis: Luxembourg, 2020-03-18"
 urlcolor: blue
 linkcolor: blue
 output:
@@ -16,17 +16,6 @@ output:
     fig_caption: true
     highlight: "tango"
 ---
-
-
-
-<a href=https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/ >
-<img src="{{ site.url }}/assets/20200409-191825-f968e0cb/MRC_GIDA_Imperial_colour_web.png" style="float:right" width="350px" />
-</a>
-<br/><br/><br/><br/>
-
-
-# Location: Luxembourg
-# Most recent sample: 2020-03-18
 
 
 ### Primary author: David Jorgensen
@@ -56,7 +45,7 @@ Using a phylodynamic model we estimate epidemiological parameters using SARSCoV-
 
 <center>
 
-![Figure 1: Cumulative estimated infections through time. Points represent reported cases in the region.]({{ site.url }}/assets/20200409-191825-f968e0cb/SEIJR_plot_size.png){width="70%"}
+![Figure 1: Cumulative estimated infections through time. Points represent reported cases in the region.]({{ site.url }}/assets/20200409-191825-f968e0cb/SEIJR_plot_size.png){:width="70%"}
 
 </center>
 
@@ -66,7 +55,7 @@ Using a phylodynamic model we estimate epidemiological parameters using SARSCoV-
     
 <center>
 
-![Figure 2: Daily estimated infections through time. Points represent reported cases in the region.]({{ site.url }}/assets/20200409-191825-f968e0cb/Daily.png){width="70%"}
+![Figure 2: Daily estimated infections through time. Points represent reported cases in the region.]({{ site.url }}/assets/20200409-191825-f968e0cb/Daily.png){:width="70%"}
 
  </center>
 
@@ -74,7 +63,7 @@ Towards the end of the curve fitted to the genetic data the number of new report
 
 <center>
 
-![Figure 3: Estimated percentage of daily cases reported in Luxembourg. error bars represent the 95% credible interval.]({{ site.url }}/assets/20200409-191825-f968e0cb/Daily.png){width="70%"}
+![Figure 3: Estimated percentage of daily cases reported in Luxembourg. error bars represent the 95% credible interval.]({{ site.url }}/assets/20200409-191825-f968e0cb/Daily.png){:width="70%"}
 
 </center>
 
@@ -156,7 +145,7 @@ The maximum likelihood phylogeny presented in figure 4 shows the genetic distanc
 
 <center>
 
-![Figure 4: Maximum likelihood phylogeny with the x-axis representing NT substitutions per site. The colour of the tips corresponds to sampling location; red tips were sampled from within the region, grey tips from outside]({{ site.url }}/assets/20200409-191825-f968e0cb/ML_tree.png){width="70%"}
+![Figure 4: Maximum likelihood phylogeny with the x-axis representing NT substitutions per site. The colour of the tips corresponds to sampling location; red tips were sampled from within the region, grey tips from outside]({{ site.url }}/assets/20200409-191825-f968e0cb/ML_tree.png){:width="400px"}
 
 </center>
 
@@ -164,7 +153,7 @@ A time-scaled phylogeny estimated alongside the epidemiological parameters prese
 
 <center>
 
-![Figure 5: Time scaled phylogeny co-estimated with epidemiological parameters. The colour of the tips corresponds to sampling location. Blue bars represent the 95% Credible interval for the position of internal nodes]({{ site.url }}/assets/20200409-191825-f968e0cb/mcc.png){width="400px"}
+![Figure 5: Time scaled phylogeny co-estimated with epidemiological parameters. The colour of the tips corresponds to sampling location. Blue bars represent the 95% Credible interval for the position of internal nodes]({{ site.url }}/assets/20200409-191825-f968e0cb/mcc.png){:width="400px"}
 
 </center>
 
