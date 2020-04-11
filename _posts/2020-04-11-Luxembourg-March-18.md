@@ -24,7 +24,7 @@ output:
 
 #### On behalf of the MRC GIDA COVID-19 phylodynamics working group at Imperial College London: Lily Geidelberg, Olivia Boyd, Manon Ragonnet, David Jorgensen,  Igor Siveroni, Erik Volz
 
-**<a href="https://sarscov2-phylodynamics.github.io/" class="uri">https://sarscov2-phylodynamics.github.io/</a>**
+**<a href="https://sarscov2phylodynamics.org/" class="uri">https://sarscov2phylodynamics.org/</a>**
 
 #### Report prepared on 2020-04-11
 
@@ -41,31 +41,41 @@ These numbers will differ from the number of uploaded sequences as we remove seq
 
 ### Sarscov-2 infections in Luxembourg
 
-Using a phylodynamic model we estimate epidemiological parameters using SARSCoV-2 sequence data from Luxembourg together with a background set of sequences sampled from the larger internationational viral population. [The model is explained in detail here](http://whoinfectedwhom.org/seijr0.1.0_methods.pdf). Reported case numbers for comparison are extracted from the [Johns Hopkins Coronavirus Resource Center](https://coronavirus.jhu.edu/).
+Using a phylodynamic model we estimate epidemiological parameters using SARS CoV 2 sequence data from Luxembourg together with a background set of sequences sampled from the larger internationational viral population. [The model is explained in detail here](http://whoinfectedwhom.org/seijr0.1.0_methods.pdf). Reported case numbers for comparison are extracted from the [Johns Hopkins Coronavirus Resource Center](https://coronavirus.jhu.edu/).
 
+
+
+![Figure 1: Cumulative estimated infections through time. Points represent reported cases in the region.]({{ site.url }}/assets/20200409-191825-f968e0cb/SEIJR_plot_size.png){:width="70%" }
+
+*Figure 1: Cumulative estimated infections through time. Points represent reported cases in the region.*
+
+<!-- 
 <center>
+![]({{ site.url }}/assets/20200409-191825-f968e0cb/SEIJR_plot_size.png){:width="70%"}
 
 ![Figure 1: Cumulative estimated infections through time. Points represent reported cases in the region.]({{ site.url }}/assets/20200409-191825-f968e0cb/SEIJR_plot_size.png){:width="70%"}
 
 </center>
+--> 
+
 
 -   Estimated cumulative infections at last sample (2020-03-18): **329 [97-1442]** median [95%CI]
 
 -   Cumulative confirmed infections reported at 2020-03-18: **203**  
     
-<center>
 
-![Figure 2: Daily estimated infections through time. Points represent reported cases in the region.]({{ site.url }}/assets/20200409-191825-f968e0cb/Daily.png){:width="70%"}
+![]({{ site.url }}/assets/20200409-191825-f968e0cb/Daily.png){:width="70%"}
 
- </center>
+*Figure 2: Daily estimated infections through time. Points represent reported cases in the region.*
+
 
 Towards the end of the curve fitted to the genetic data the number of new reported infections overtakes the median estimate from the genetic data. Previous work has suggested that [the proportion of cases which are reported in Luxembourg is high](https://cmmid.github.io/topics/covid19/severity/global_cfr_estimates.html) which would support this observation. An estimation of the reporting rate over time based on this analysis is given in figure 3. We are not yet in a position to provide out of sample estimates from the phylodynamic model but an implementation of this is planned for the coming weeks.
 
-<center>
 
-![Figure 3: Estimated percentage of daily cases reported in Luxembourg. error bars represent the 95% credible interval.]({{ site.url }}/assets/20200409-191825-f968e0cb/Daily.png){:width="70%"}
+![]({{ site.url }}/assets/20200409-191825-f968e0cb/reporting.png){:width="70%"}
 
-</center>
+*Figure 3: Estimated percentage of daily cases reported in Luxembourg. error bars represent the 95% credible interval.*
+
 
 ### Epidemic growth in Luxembourg
 
@@ -143,19 +153,17 @@ Doubling time (days)
 
 The maximum likelihood phylogeny presented in figure 4 shows the genetic distance between sequenced SARSCoV-2 genomes from Luxembourg and elsewhere. Due to the slow evolution of the virus compared with the time covered by the sample there are a number of short internal branches. This figure shows that although some samples from Luxembourg cluster together, they represent a cross-section of the wider phylogeny and likely result from multiple different introductions.
 
-<center>
 
 ![Figure 4: Maximum likelihood phylogeny with the x-axis representing NT substitutions per site. The colour of the tips corresponds to sampling location; red tips were sampled from within the region, grey tips from outside]({{ site.url }}/assets/20200409-191825-f968e0cb/ML_tree.png){:width="400px"}
 
-</center>
+*Figure 4: Maximum likelihood phylogeny with the x-axis representing NT substitutions per site. The colour of the tips corresponds to sampling location; red tips were sampled from within the region, grey tips from outside*
 
 A time-scaled phylogeny estimated alongside the epidemiological parameters presented previously is given in figure 5. Due to the low diversity of the SARSCoV-2 sequence data few of the internal nodes have high support. the sample of background sequences is stratified to give a good sample over time and selects sequences whcih are closely related to the Luxembourg sequences. The background data are also limited by which countries are submitting sequence data and the quality of this data, meaning Europe and North America are over-represented in the phylogeny.
 
-<center>
 
-![Figure 5: Time scaled phylogeny co-estimated with epidemiological parameters. The colour of the tips corresponds to sampling location. Blue bars represent the 95% Credible interval for the position of internal nodes]({{ site.url }}/assets/20200409-191825-f968e0cb/mcc.png){:width="400px"}
+![Figure 5: Time scaled phylogeny co-estimated with epidemiological parameters. The colour of the tips corresponds to sampling location. Blue bars represent the 95% Credible interval for the position of internal nodes]({{ site.url }}/assets/20200409-191825-f968e0cb/mcc2.png){:width="400px"}
 
-</center>
+*Figure 5: Time scaled phylogeny co-estimated with epidemiological parameters. The colour of the tips corresponds to sampling location. Blue bars represent the 95% Credible interval for the position of internal nodes.*
 
 ##### Molecular clock rate of evolution: **0.00126 [0.000916-0.00165]** median [95% CrI]
 
