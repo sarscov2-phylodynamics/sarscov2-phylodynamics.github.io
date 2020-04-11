@@ -168,7 +168,7 @@ A time-scaled phylogeny estimated alongside the epidemiological parameters prese
 
 </center>
 
-##### Molecular clock rate of evolution: **0.00126 \[0.000916-0.00165\]** median \[95% CrI\]
+##### Molecular clock rate of evolution: **0.00126 [0.000916-0.00165]** median [95% CrI]
 
 <!-- #### (optional) Number of introductions into Luxembourg (someone needs to write code to compute this) -->
 
