@@ -13,7 +13,8 @@ linkcolor: blue
 
 ### Report prepared on 2020-04-08
 
-#### On behalf of the MRC GIDA COVID-19 phylodynamics working group at Imperial College London: Lily Geidelberg, Olivia Boyd, Manon Ragonnet, David Jorgensen,  Igor Siveroni, Erik Volz
+#### Olivia Boyd, Lily Geidelberg, David Jorgensen, Manon Ragonnet, Igor Siveroni, Erik Volz and the [Imperial College COVID-19 Response Team](http://sarscov2phylodynamics.org/about/)
+
 
 
 The time that a COVID19 epidemic begins in a particular region (city,county,country etc.) depends on

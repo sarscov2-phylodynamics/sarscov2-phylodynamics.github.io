@@ -22,7 +22,7 @@ output:
 
 #### <a href="mailto:david.jorgensen13@imperial.ac.uk" class="email">david.jorgensen13@imperial.ac.uk</a>
 
-#### On behalf of the MRC GIDA COVID-19 phylodynamics working group at Imperial College London: Lily Geidelberg, Olivia Boyd, Manon Ragonnet, David Jorgensen,  Igor Siveroni, Erik Volz
+#### Olivia Boyd, Lily Geidelberg, David Jorgensen, Manon Ragonnet, Igor Siveroni, Erik Volz and the [Imperial College COVID-19 Response Team](http://sarscov2phylodynamics.org/about/)
 
 **<a href="https://sarscov2phylodynamics.org/" class="uri">https://sarscov2phylodynamics.org/</a>**
 
@@ -39,7 +39,7 @@ This analysis is based on :
 
 These numbers will differ from the number of uploaded sequences as we remove sequences with likely sequencing errors or significant gaps. This analysis gave a bimodal result with similar posterior estimates. This analysis is representative of the results suggesting continued transmission, in the runs not represented here the transmission rate, beta, collapses resulting in very few reported cases. This is likely due to the inclusion of closely related sequences from the same clusters of transmission. This sample contains 3 identical sequences, 2 within Luxembourg and 1 between Luxembourg and Ireland.
 
-### Sarscov-2 infections in Luxembourg
+### Infections in Luxembourg
 
 Using a phylodynamic model we estimate epidemiological parameters using SARS CoV 2 sequence data from Luxembourg together with a background set of sequences sampled from the larger internationational viral population. [The model is explained in detail here](http://whoinfectedwhom.org/seijr0.1.0_methods.pdf). Reported case numbers for comparison are extracted from the [Johns Hopkins Coronavirus Resource Center](https://coronavirus.jhu.edu/).
 
