@@ -1,4 +1,6 @@
 ---
+title: "Phylodynamic Analysis: Reykjavik: 2020-03-29 "
+date: April 19, 2020
 urlcolor: blue
 linkcolor: blue
 output:
@@ -18,15 +20,6 @@ output:
 
 
 
-
-
-
-
-
----
-title: "Phylodynamic Analysis: Reykjavik: 2020-03-29 "
-date: April 19, 2020
----
 
 
 
@@ -59,7 +52,7 @@ These numbers will differ from the number of uploaded sequences as we remove seq
 
 ## How many are infected in Reykjavik?
 
-Using a phylodynamic model we estimate epidemiological parameters using SARS CoV 2 sequence data from Reykjavik together with a background set of sequences sampled from the larger internationational viral population. [the model is explained in detail here](http://whoinfectedwhom.org/seijr0.1.0_methods.pdf). Reported cases are extracted from [covid.is](covid.is), the SARSCoV-2 website of The Directorate of Health and The Department of Civil Protection and Emergency Management of Iceland.
+Using a phylodynamic model we estimate epidemiological parameters using SARS CoV 2 sequence data from Reykjavik together with a background set of sequences sampled from the larger internationational viral population. [the model is explained in detail here](http://whoinfectedwhom.org/seijr0.1.0_methods.pdf). Reported cases are extracted from [covid.is](http://covid.is), the SARSCoV-2 website of The Directorate of Health and The Department of Civil Protection and Emergency Management of Iceland.
 
 
 
@@ -93,8 +86,12 @@ Using a phylodynamic model we estimate epidemiological parameters using SARS CoV
 
 *Figure 3: Estimated percentage of daily cases reported in Reykjavik. Error bars represent the 95% credible interval.*
 
-Iceland has had a high testing rate throughout the SARSCoV2 outbreak although recent testing rates have been lower due to a [shortage of testing kits](https://www.ruv.is/frett/pinnasending-til-islands-skorin-nidur-um-3000) which may affect recent reporting rates. Our estimates of effective reproduction number over time (Rt) based on genetic data support reduced transmission over time following the introduction of quarantine for those returning to Iceland and later closure of borders to non-EU arrivals and social distancing measures (Figure 4).
+Iceland has had a high testing rate throughout the SARSCoV2 outbreak although recent testing rates have been lower due to a [shortage of testing kits](https://www.ruv.is/frett/pinnasending-til-islands-skorin-nidur-um-3000) which may affect recent reporting rates.
 
+<!--
+Our estimates of effective reproduction number over time (Rt) based on genetic data support reduced transmission over time following the introduction of quarantine for those returning to Iceland and later closure of borders to non-EU arrivals and social distancing measures (Figure 4).
+EV: probably need more sequence data to conclude this 
+--> 
 
 
 ![plot of chunk Rt]({{ site.url }}/assets/20200419-105308-5839009f/Rt.png){:width="70%" }
@@ -109,8 +106,6 @@ Reproduction number at last sample (2020-03-29): **2.44 [1.8-2.82]** median [95%
 
 
 
-```
-
 
 | Quantile | Reproduction number | Growth rate (per day) | Doubling time (days) |
 |:--------:|:-------------------:|:---------------------:|:--------------------:|
@@ -118,8 +113,8 @@ Reproduction number at last sample (2020-03-29): **2.44 [1.8-2.82]** median [95%
 |   2.5%   |        1.92         |        0.0970         |         2.94         |
 |  97.5%   |        3.72         |         0.236         |         7.15         |
 
-Table: Reproduction number, growth rate and doubling times
-```
+Table 1: Reproduction number, growth rate and doubling times
+
 
 
 
