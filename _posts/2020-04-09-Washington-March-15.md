@@ -1,6 +1,6 @@
 ---
 title: "Phylodynamic Analysis: Washington State, USA: 2020-03-15"
-date: April 09, 2020
+date: April 09, 2020 (updated April 20, 2020)
 urlcolor: blue
 linkcolor: blue
 output:
@@ -19,13 +19,12 @@ output:
 ---
 
 
+### Results are preliminary
+Low precision for some parameters. 
 
+### Primary author: Manon Ragonnet and Erik Volz
 
-
-
-### Primary author: Manon Ragonnet
-
-### Report prepared on 2020-04-09
+### Report prepared on 2020-04-09 (updated April 20, 2020 )
 
 #### Olivia Boyd, Lily Geidelberg, David Jorgensen, Manon Ragonnet, Igor Siveroni, Erik Volz and the [Imperial College COVID-19 Response Team](http://sarscov2phylodynamics.org/about/)
 
@@ -55,32 +54,43 @@ output:
 
 
 
-![plot of chunk Cumulative estimated infections through time]({{ site.url }}/assets/20200409-105438-beb51a4d/SEIJR_plot_size.png)
-
-*Figure 1: Cumulative estimated infections through time. Points represent reported cases in Washington. The dashed line indicates the date of last sample in Washington in this analysis.*
-
-
-* Estimated cumulative infections at last sample (2020-03-15): **39962 [8790-195314]** median [95%CI]
-
-* Cumulative confirmed infections reported at 2020-03-15: **769**  
-
-<!-- * Cumulative number of active infections at 2020-03-15:   -->
+![plot of chunk Cumulative estimated infections through time]({{ site.url }}/assets/20200420-230114-2d0c42b0/SEIJR_plot_size.png)
 
 
 
-![plot of chunk daily estimated infections through time]({{ site.url }}/assets/20200409-105438-beb51a4d/Daily.png)
+![plot of chunk Cumulative estimated infections through time log scale]({{ site.url }}/assets/20200420-230114-2d0c42b0/SEIJR_plot_size_log.png)
 
-*Figure 2: Daily estimated infections through time. Points represent reported cases in Washington. The dashed line indicates the date of last sample in Washington in this analysis.*
-
-
+*Figure 1: Estimated cumulative infections through time represented by solid black line (median) and 95% CrI (ribbon). Black points represent reported cases in Washington. The dashed line indicates the date of last sample in Washington in this analysis.*
 
 
 
-![plot of chunk Rt]({{ site.url }}/assets/20200409-105438-beb51a4d/Rt.png)
+* Estimated cumulative infections at last sample (2020-03-15): **12726 [3899-71563]** median [95%CI]
 
-*Figure 3: Reproduction number through time. The dashed line indicates the date of last sample in Washington in this analysis.*
+* Cumulative confirmed infections reported at 2020-03-15: **3745**  
 
-Reproduction number at last sample (2020-03-15): **2.39 [0.419-2.9]** median [95% CrI]
+
+
+![plot of chunk daily estimated infections through time]({{ site.url }}/assets/20200420-230114-2d0c42b0/Daily.png)
+
+
+![plot of chunk daily estimated infections through time log scale]({{ site.url }}/assets/20200420-230114-2d0c42b0/Daily_log.png)
+
+
+
+*Figure 2: Estimated daily  infections through time represented by solid black line (median) and 95% CrI (ribbon). Black points represent reported cases in Washington. The dashed line indicates the date of last sample in Washington in this analysis.*
+
+
+![plot of chunk reporting]({{ site.url }}/assets/20200420-230114-2d0c42b0/reporting.png)
+
+*Figure 3: Estimated percentage of daily cases reported in Washington. Error bars represent the 95% credible interval.*
+
+
+
+![plot of chunk Rt]({{ site.url }}/assets/20200420-230114-2d0c42b0/Rt.png)
+
+*Figure 4: Reproduction number through time. The black vertical dashed line indicates the date of last sample in Washington in this analysis. Orange and red dashed lines indicate dates of school closure and general lockdown in Washington, respectively. *
+
+Reproduction number at last sample (2020-03-26): **2.5 [0.94-3.02]** median [95% CrI]
 
 
 ## How quickly has the epidemic in Washington grown?
@@ -91,11 +101,11 @@ Reproduction number at last sample (2020-03-15): **2.39 [0.419-2.9]** median [95
 
 | Quantile | Reproduction number | Growth rate (per day) | Doubling time (days) |
 |:--------:|:-------------------:|:---------------------:|:--------------------:|
-|   50%    |        2.76         |         0.167         |         4.15         |
-|   2.5%   |        2.29         |         0.130         |         3.37         |
-|  97.5%   |        3.28         |         0.206         |         5.33         |
+|   50%    |        2.71         |         0.164         |         4.24         |
+|   2.5%   |        2.27         |         0.128         |         3.33         |
+|  97.5%   |        3.31         |         0.208         |         5.42         |
 
-Table: Reproduction number, growth rate and doubling times
+Table 1: Reproduction number, growth rate and doubling times
 
 
 
@@ -105,47 +115,32 @@ Table: Reproduction number, growth rate and doubling times
 
 
 
-![plot of chunk mcc_tree]({{ site.url }}/assets/20200409-105438-beb51a4d/mcc.png)
+![plot of chunk mcc_tree]({{ site.url }}/assets/20200420-230114-2d0c42b0/mcc.png)
 
 *Figure 4: Time scaled phylogeny co-estimated with epidemiological parameters. The colour of the tips corresponds to location sampling; red tips were sampled from within Washington, blue tips from outside.*
 
 
 
-##### Molecular clock rate of evolution: **0.00161 [0.00121-0.0022]** median [95% CrI]  
+
+##### Molecular clock rate of evolution: **0.00167 [0.00119-0.00247]** median [95% CrI]  
 
 <!-- #### (optional) Number of introductions into Washington (someone needs to write code to compute this) -->
 
 
 
 
-## Predicted cumulative infections over next 14 days (assuming exponential growth):
-
-
-
-![plot of chunk predicted infections through time]({{ site.url }}/assets/20200409-105438-beb51a4d/cumu_inf_exp_model.png)
-
-*Figure 5: Cumulative estimated infections. The dashed line indicates the date of last sample in Washington in this analysis. The points represent reported cases in Washington.*
-
-Based on an estimated growth rate of 0.167 [0.130 - 0.206] median [95% CrI]:  
-
-We estimate cumulative number of infections at last sample (2020-03-15) as: 11733 [2192 - 67438]
-
-We estimate number of infections at 2020-03-21 (6 days after last sample) as:
-32153 [4777 - 234950]  
-
-
 
 
 ## Methods summary
-
-
 
 Details on methods and priors can be [found here](http://whoinfectedwhom.org/seijr0.1.0_methods.pdf).
 
 
 Model version: seijr0.0.0
 
-Report version: 20200409-105438-beb51a4d
+Report version: 20200420-230114-2d0c42b0
+
+Estimates are based on 10 chains with 20 million iterations and 50% burn-in. [Effective sample size values]({{ site.url }}/assets/20200420-230114-2d0c42b0/ess.txt)
 
 
 ## Acknowledgements

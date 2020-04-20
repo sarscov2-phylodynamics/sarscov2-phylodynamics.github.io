@@ -1,0 +1,22 @@
+EFFECTIVE SAMPLE SIZES OF COMBINED LOGS
+posterior.var1                                                                                                              64.54429
+likelihood.var1                                                                                                            865.78804
+prior.var1                                                                                                                  58.24364
+treeLikelihood.algn2.var1                                                                                                  865.78804
+TreeHeight.var1                                                                                                            209.69008
+clockRate.var1                                                                                                              58.15547
+kappa.var1                                                                                                                7490.55885
+PhydynSEIR.var1                                                                                                             55.88821
+seir.E.var1                                                                                                                214.98100
+seir.S.var1                                                                                                                 72.23386
+seir.b.var1                                                                                                                390.65964
+seir.exog.var1                                                                                                             321.82208
+seir.exogGrowthRate.var1                                                                                                    45.34716
+seir.importRate.var1                                                                                                       240.68553
+seir.p_h.var1                                                                                                              764.51020
+seir.tau.var1                                                                                                             1409.05817
+freqParameter.1.var1                                                                                                      2542.91303
+freqParameter.2.var1                                                                                                      2908.58355
+freqParameter.3.var1                                                                                                      2895.71750
+freqParameter.4.var1                                                                                                      2639.05666
+
