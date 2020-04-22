@@ -1,0 +1,22 @@
+EFFECTIVE SAMPLE SIZES OF COMBINED LOGS
+
+posterior.var1                   321.55496
+likelihood.var1                  537.09202
+prior.var1                       239.09774
+treeLikelihood.algn.var1         537.09202
+TreeHeight.var1                  686.47528
+clockRate.var1                   463.56113
+kappa.var1                      4492.95260
+PhydynSEIR.var1                  249.06903
+seir.E.var1                      966.08546
+seir.S.var1                    17863.38089
+seir.b.var1                     1177.15692
+seir.exog.var1                   300.74488
+seir.exogGrowthRate.var1          95.18245
+seir.importRate.var1            8241.70855
+seir.p_h.var1                   5299.83310
+seir.tau.var1                  11352.08644
+freqParameter.1.var1            1633.28009
+freqParameter.2.var1            1767.43945
+freqParameter.3.var1            1796.80506
+freqParameter.4.var1            1612.25692
