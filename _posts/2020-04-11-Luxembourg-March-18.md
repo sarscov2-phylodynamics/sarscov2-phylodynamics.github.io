@@ -173,6 +173,8 @@ A time-scaled phylogeny estimated alongside the epidemiological parameters prese
 
 Details on methods and priors can be [found here](http://whoinfectedwhom.org/seijr0.1.0_methods.pdf).
 
+Based on 3 chains of 20 million iterations with 30% burnin. [Effective sample size values]({{ site.url }}/assets/20200409-191825-f968e0cb/ESS.txt)
+
 Model version: seijr0.1.0
 
 ### Acknowledgements
