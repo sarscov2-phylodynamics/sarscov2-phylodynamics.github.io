@@ -109,9 +109,9 @@ Reproduction number at last sample (2020-03-29): **2.44 [1.8-2.82]** median [95%
 
 | Quantile | Reproduction number | Growth rate (per day) | Doubling time (days) |
 |:--------:|:-------------------:|:---------------------:|:--------------------:|
-|   50%    |        2.66         |         0.160         |         4.33         |
-|   2.5%   |        1.92         |        0.0970         |         2.94         |
-|  97.5%   |        3.72         |         0.236         |         7.15         |
+|   50%    |        2.63         |         0.157         |         4.41         |
+|   2.5%   |        1.92         |        0.0972         |         2.98         |
+|  97.5%   |        3.67         |         0.232         |         7.13         |
 
 Table 1: Reproduction number, growth rate and doubling times
 
