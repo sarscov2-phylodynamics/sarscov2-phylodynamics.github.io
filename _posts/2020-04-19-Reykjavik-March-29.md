@@ -145,10 +145,9 @@ Table 1: Reproduction number, growth rate and doubling times
 
 ## Methods summary
 
-
-
 Details on methods and priors can be [found here](http://whoinfectedwhom.org/seijr0.1.0_methods.pdf).
 
+Based on 6 chains of 10 million iterations with 50% burnin. [Effective sample size values]({{ site.url }}/assets/20200419-105308-5839009f/ESS.txt)
 
 Model version: seijr0.1.0
 
