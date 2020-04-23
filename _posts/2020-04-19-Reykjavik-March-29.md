@@ -48,7 +48,7 @@ output:
 
 These numbers will differ from the number of uploaded sequences as we remove sequences with likely sequencing errors or significant gaps. Sequences were deduplicated and downsampled prior to analysis. Icelandic sequences included in this analysis were uploaded to [gisaid](gisaid.org) on or before 2020-04-13.
 
-![plot of chunk Cumulative estimated infections through time]({{ site.url }}/assets/20200419-105308-5839009f/sample_distribution.png)
+![plot of sampling distribution of local and global samples used]({{ site.url }}/assets/20200419-105308-5839009f/sample_distribution.png)
 
 Figure 1. Sampling distributions over time of number of sequences included within the region versus sequences included from the international reservoir.
 
