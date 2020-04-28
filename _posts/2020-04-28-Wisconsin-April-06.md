@@ -91,7 +91,7 @@ To understand the rate of spread of SARS-CoV-2, we estimated the reproduction nu
 
 ![plot of chunk Rt]({{ site.url }}/assets/20200428-120357-6c31f383/Rt.png)
 
-*Figure 5: Reproduction number through time. The black vertical dashed line indicates the date of last sample in Wisconsin in this analysis. Orange and red dashed lines indicate dates of school closure and general lockdown in Wisconsin, respectively. *
+*Figure 5: Reproduction number through time. The black vertical dashed line indicates the date of last sample in Wisconsin in this analysis. Orange and red dashed lines indicate dates of school closure and general lockdown in Wisconsin, respectively.*
 
 
 
@@ -122,7 +122,7 @@ The figure below represents the time scaled phylogeny that is co-estimated in ou
 
 ![plot of chunk mcc_tree]({{ site.url }}/assets/20200428-120357-6c31f383/mcc.png)
 
-*Figure 7: Time scaled phylogeny co-estimated with epidemiological parameters. The colour of the tips corresponds to location sampling; red tips were sampled from within Wisconsin, blue tips from outside.*
+*Figure 6: Time scaled phylogeny co-estimated with epidemiological parameters. The colour of the tips corresponds to location sampling; red tips were sampled from within Wisconsin, blue tips from outside.*
 
 
 
@@ -131,24 +131,6 @@ The figure below represents the time scaled phylogeny that is co-estimated in ou
 
 <!-- #### (optional) Number of introductions into Wisconsin (someone needs to write code to compute this) -->
 
-
-
-
-## Predicted cumulative infections over next 14 days (assuming exponential growth):
-
-Finally, based on the epidemiological parameters estimated in our analysis, we predict the number of infections up to 14 days after the last sample using an exponential model.
-
-
-![plot of chunk predicted infections through time]({{ site.url }}/assets/20200428-120357-6c31f383/cumu_inf_exp_model.png)
-
-*Figure 8: Cumulative estimated infections. The dashed line indicates the date of last sample in Wisconsin in this analysis. The points represent reported cases in Wisconsin.*
-
-Based on an estimated growth rate of 0.130 [0.101 - 0.157] median [95% CrI]:  
-
-We estimate cumulative number of infections at last sample (2020-04-06) as: 31591 [4148 - 200122]
-
-We estimate number of infections at 2020-04-20 (14 days after last sample) as:
-196866 [17518 - 1722897]  
 
 
 
