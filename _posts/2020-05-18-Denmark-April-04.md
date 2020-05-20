@@ -1,4 +1,6 @@
 ---
+title: "Phylodynamic Analysis: Denmark: 2020-04-04 "
+date: May 18, 2020
 urlcolor: blue
 linkcolor: blue
 output:
@@ -19,14 +21,6 @@ output:
 
 
 
-
-
-
-
----
-title: "Phylodynamic Analysis: Denmark,: 2020-04-04 "
-date: May 18, 2020
----
 
 
 
@@ -99,9 +93,6 @@ Reproduction number at last sample (2020-04-04): **1.62 [0.544-2.2]** median [95
 ## How quickly has the epidemic in Denmark grown?
 
 
-```
-
-
 | Quantile | Reproduction number | Growth rate (per day) | Doubling time (days) |
 |:--------:|:-------------------:|:---------------------:|:--------------------:|
 |   50%    |        2.39         |         0.138         |         5.04         |
@@ -109,7 +100,7 @@ Reproduction number at last sample (2020-04-04): **1.62 [0.544-2.2]** median [95
 |  97.5%   |        3.11         |         0.194         |         7.88         |
 
 Table: Reproduction number, growth rate and doubling times
-```
+
 
 
 
@@ -122,7 +113,7 @@ The following 2 figures present phylogenetic trees of SARS-CoV-2 with sequences 
 
 
 
-![plot of chunk mcc_tree]({{ site.url }}/assets/20200518-115643-3e758133/mcc.png)
+![plot of chunk mcc_tree]({{ site.url }}/assets/20200518-115643-3e758133/mcc2.png)
 
 *Figure 7: Time scaled phylogeny co-estimated with epidemiological parameters. The colour of the tips corresponds to location sampling; red tips were sampled from within Denmark, blue tips from outside.*
 
@@ -143,8 +134,6 @@ Details on methods and priors can be [found here](http://whoinfectedwhom.org/sei
 
 
 ```
-
-
 |      Statistic      |   mean    | ESS  |
 |:-------------------:|:---------:|:----:|
 |      posterior      |  -42821   |  92  |
