@@ -94,7 +94,6 @@ Reproduction number at last sample (2020-05-04): **1.65 [2.05-0.61]** median [95
 
 ## How quickly has the epidemic in Ahmedabad grown?
 
-```
 
 
 | Quantile | Reproduction number | Growth rate (per day) | Doubling time (days) |
@@ -104,7 +103,7 @@ Reproduction number at last sample (2020-05-04): **1.65 [2.05-0.61]** median [95
 |  97.5%   |        2.66         |         0.160         |         9.64         |
 
 Table: Reproduction number, growth rate and doubling times
-```
+
 
 
 ## How has SARS-CoV 2 evolved in Ahmedabad?
@@ -130,8 +129,6 @@ We present here a time scaled phylogeny of SARS-CoV-2 in Ahmedabad and the inclu
 
 Details on methods and priors can be [found here](http://whoinfectedwhom.org/seijr0.1.0_methods.pdf).
 
-
-```
 
 
 |      Statistic      |   mean    | ESS  |
@@ -160,7 +157,7 @@ Details on methods and priors can be [found here](http://whoinfectedwhom.org/sei
 |       gamma1        |   121.7   |  8   |
 
 Table: Effective sample size of model parameters
-```
+
 
 
 
