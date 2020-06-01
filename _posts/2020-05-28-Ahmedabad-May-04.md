@@ -69,10 +69,6 @@ In this analysis we estimate **12572 [3270-60827]** median [95%CI] cumulative in
 
 
 
-
-![plot of chunk daily estimated infections through time]({{ site.url }}/assets/20200528-112517-95f05a03/Daily.png){:width="70%"}
-
-
 ![plot of chunk daily estimated infections through time log scale]({{ site.url }}/assets/20200528-112517-95f05a03/Daily_log.png){:width="70%"}
 
 
@@ -102,7 +98,7 @@ Reproduction number at last sample (2020-05-04): **1.65 [2.05-0.61]** median [95
 |   2.5%   |        1.65         |        0.0719         |         4.34         |
 |  97.5%   |        2.66         |         0.160         |         9.64         |
 
-Table: Reproduction number, growth rate and doubling times
+Table 1: Reproduction number, growth rate and doubling times
 
 
 
@@ -153,10 +149,9 @@ Details on methods and priors can be [found here](http://whoinfectedwhom.org/sei
 |   freqParameter.2   |  0.1825   | 2389 |
 |   freqParameter.3   |  0.1949   | 2187 |
 |   freqParameter.4   |  0.3252   | 2027 |
-|       gamma0        |    73     |  NA  |
-|       gamma1        |   121.7   |  8   |
 
-Table: Effective sample size of model parameters
+
+Table 2: Effective sample size of model parameters
 
 
 
