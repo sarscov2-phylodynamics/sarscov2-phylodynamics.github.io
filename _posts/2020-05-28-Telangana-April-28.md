@@ -1,5 +1,5 @@
 ---
-title: "Phylodynamic Analysis: Telangana,: 2020-04-28 "
+title: "Phylodynamic Analysis: Telangana: 2020-04-28 "
 date: May 28, 2020
 urlcolor: blue
 linkcolor: blue
@@ -74,9 +74,6 @@ In this preliminary analysis we estimate **73849 [10396-129336]** median [95%CI]
 
 
 
-![plot of chunk daily estimated infections through time]({{ site.url }}/assets/20200528-153636-b3e93655/Daily.png)
-
-
 ![plot of chunk daily estimated infections through time log scale]({{ site.url }}/assets/20200528-153636-b3e93655/Daily_log.png)
 
 
@@ -106,7 +103,7 @@ Reproduction number at last sample (2020-04-28): **0.391 [0.0501-1.75]** median 
 |   2.5%   |        1.97         |         0.102         |         2.32         |
 |  97.5%   |        4.72         |         0.298         |         6.78         |
 
-Table: Reproduction number, growth rate and doubling times
+Table 1: Reproduction number, growth rate and doubling times
 
 the R0 and R(t) estimates presented here are broadly in line with estimates produced by other groups using only epidemiological data. 
 
@@ -135,10 +132,7 @@ We present a time scaled phylogeny of SARS-CoV-2 in Telangana and the included i
 
 ## Methods summary
 
-
-
 Details on methods and priors can be [found here](http://whoinfectedwhom.org/seijr0.1.0_methods.pdf).
-
 
 
 |      Statistic      |   mean   | ESS  |
@@ -163,10 +157,9 @@ Details on methods and priors can be [found here](http://whoinfectedwhom.org/sei
 |   freqParameter.2   |  0.1826  | 804  |
 |   freqParameter.3   |  0.1951  | 795  |
 |   freqParameter.4   |  0.3245  | 670  |
-|       gamma0        |    73    |  NA  |
-|       gamma1        |  121.7   |  27  |
 
-Table: Effective sample size of model parameters
+
+Table 2: Effective sample size of model parameters
 
 
 
