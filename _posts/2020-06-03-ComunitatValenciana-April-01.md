@@ -96,7 +96,7 @@ In this  analysis we estimate ** 17807 [6980-76264] ** median [95%CI] cumulative
 
 ![plot of chunk Rt]({{ site.url }}/assets/20200603-213411-77f3c86e/Rt.png)
 
-*Figure 5: Reproduction number through time. The black vertical dashed line indicates the date of last sample in Comunitat Valenciana in this analysis. Orange and red dashed lines indicate dates of school closure and general lockdown in Comunitat Valenciana, respectively. *
+*Figure 5: Reproduction number through time. The black vertical dashed line indicates the date of last sample in Comunitat Valenciana in this analysis. Orange and red dashed lines indicate dates of school closure and general lockdown in Comunitat Valenciana, respectively.*
 
 Reproduction number at last sample (2020-04-01): **0.926 [0.31-1.8]** median [95% CrI]
 
