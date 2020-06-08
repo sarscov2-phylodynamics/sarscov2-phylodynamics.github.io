@@ -37,7 +37,7 @@ output:
 
 
 
-#### This is analysis is based on : 
+#### This analysis is based on : 
   
 * **54 whole genomes** sampled from **within Comunitat Valenciana**
 * **49 whole genomes** sampled from outside of **Comunitat Valenciana**
