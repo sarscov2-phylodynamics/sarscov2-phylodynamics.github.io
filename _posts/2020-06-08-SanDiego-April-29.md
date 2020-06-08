@@ -91,7 +91,7 @@ In this  analysis we estimate **28960 [8103-162788]** median [95%CI] cumulative 
 
 ![plot of chunk Rt]({{ site.url }}/assets/20200608-124449-b5e991fd/Rt.png)
 
-*Figure 5: Reproduction number through time. The black vertical dashed line indicates the date of last sample in San Diego in this analysis. The red dashed line indicates the date of the general lockdown in San Diego and the rest of California. *
+*Figure 5: Reproduction number through time. The black vertical dashed line indicates the date of last sample in San Diego in this analysis. The red dashed line indicates the date of the general lockdown in San Diego and the rest of California.*
 
 Reproduction number at last sample (2020-04-29): **0.575 [0.307-1.35]** median [95% CrI]
 
