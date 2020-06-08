@@ -90,7 +90,7 @@ In this  analysis we estimate ** 17807 [6980-76264] ** median [95%CI] cumulative
 
 ![plot of chunk reporting]({{ site.url }}/assets/20200603-213411-77f3c86e/reporting.png)
 
-*Figure 4: Estimated percentage of daily cases reported in Comunitat Valenciana. Error bars represent the 95% credible interval.*
+*Figure 4: Estimated percentage of cases reported in Comunitat Valenciana. Error bars represent the 95% credible interval.*
 
 
 
