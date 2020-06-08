@@ -76,7 +76,7 @@ In this preliminary analysis we estimate **10612 [1807-74190]** (median [95%CI])
 
 ![plot of chunk reporting]({{ site.url }}/assets/20200607-213403-ab612274/reporting.png)
 
-*Figure 4: Estimated percentage of daily cases reported in Madinah. Error bars represent the 95% credible interval.*
+*Figure 4: Estimated percentage of cases reported in Madinah. Error bars represent the 95% credible interval.*
 
 We estimate approximately 25% of cases in Madinah have been reported although this estimate has wide confidence intervals and should be interpreted with caution. Estimated reporting rates for the state of Saudi Arabia from other sources are much higher with [Russell et al. estimating 87% from comparison of fatality data to the number of reported cases](https://cmmid.github.io/topics/covid19/global_cfr_estimates.html). Our reporting rate estimates are likely to change with a longer time series of genetic data.
 
