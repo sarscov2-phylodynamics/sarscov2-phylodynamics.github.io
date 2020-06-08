@@ -1,5 +1,5 @@
 ---
-title: "Phylodynamic Analysis: Portugal,: 2020-05-04 "
+title: "Phylodynamic Analysis: Portugal: 2020-05-04 "
 date: June 02, 2020
 urlcolor: blue
 linkcolor: blue
