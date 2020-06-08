@@ -82,7 +82,7 @@ We estimate approximately 70% of cases occuring in Makkah have been reported. Es
 
 ![plot of chunk Rt]({{ site.url }}/assets/20200607-203557-f824070b/Rt.png)
 
-*Figure 5: Reproduction number through time. The black vertical dashed line indicates the date of last sample in Makkah in this analysis. *
+*Figure 5: Reproduction number through time. The black vertical dashed line indicates the date of last sample in Makkah in this analysis.*
 
 Reproduction number at last sample (2020-04-16): **1.54 [1.01-1.88]** median [95% CrI]
 
@@ -96,7 +96,7 @@ Reproduction number at last sample (2020-04-16): **1.54 [1.01-1.88]** median [95
 |   2.5%   |        1.31         |        0.0365         |         5.56         |
 |  97.5%   |        2.23         |         0.125         |          19          |
 
-Table: Reproduction number, growth rate and doubling times
+Table 1: Reproduction number, growth rate and doubling times
 
 
 
@@ -113,7 +113,7 @@ Table: Reproduction number, growth rate and doubling times
 
 
 
-![plot of chunk mcc_tree]({{ site.url }}/assets/20200607-203557-f824070b/mcc.png)
+![plot of chunk mcc_tree]({{ site.url }}/assets/20200607-203557-f824070b/mcc2.png)
 
 *Figure 7: Time scaled phylogeny co-estimated with epidemiological parameters. The colour of the tips corresponds to location sampling; red tips were sampled from within Makkah.*
 
@@ -155,7 +155,7 @@ Details on methods and priors can be [found here](http://whoinfectedwhom.org/sei
 |   freqParameter.4   |  0.3251   | 10951 |
 
 
-Table: Effective sample size of model parameters
+Table 2: Effective sample size of model parameters
 
 
 
