@@ -38,7 +38,7 @@ output:
 
 
 
-#### This is analysis is based on : 
+#### This analysis is based on : 
   
 * **50 whole genomes** sampled from **within San Francisco**
 * **47 whole genomes** sampled from outside of **San Francisco**
@@ -55,7 +55,7 @@ Reported cases for comparison to our model predictions are taken from [DataSF](h
 
 
 ## How many are infected in San Francisco?
-In this  analysis we estimate **50030 [10273-229885] ** median [95%CI] cumulative infections at the time of the the last sample (2020-04-28). At the same time point there were **1647** reported cases. The estimates follow a similar trajectory to the reported cases at a different magnitude. 
+In this  analysis we estimate **50030 [10273-229885] ** median [95%CI] cumulative infections at the time of the the last sample (2020-04-30). At the same time point there were **1647** reported cases. The estimates follow a similar trajectory to the reported cases at a different magnitude. 
 
 
 

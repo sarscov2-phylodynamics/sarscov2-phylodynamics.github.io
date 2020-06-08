@@ -1,0 +1,288 @@
+---
+urlcolor: blue
+linkcolor: blue
+output:
+  word_document:
+    fig_width: 7
+    fig_height: 5
+    fig_caption: true
+    highlight: "tango"
+    reference_docx: word_style.docx
+    df_print: "kable"
+  html_document:
+    fig_width: 7
+    fig_height: 5
+    fig_caption: true
+    highlight: "tango"
+---
+
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(error = FALSE)
+```
+
+```{r titleparms, echo = F, include = F }
+
+options(scipen=999) # !
+
+doc.type <- knitr::opts_knit$get('rmarkdown.pandoc.to')
+if (is.null(doc.type)) {
+  doc.type <- "gfm"
+}
+info <- readRDS("info_for_P3.rds")
+posterior_model_parameters_for_P2 <- read.csv("posterior_model_parameters_for_P2.csv")
+
+last_tip <- info$last_tip
+first_tip <- info$first_tip
+n_genomes_Il <- info$n_genomes_Il
+n_genomes_exog <- info$n_genomes_exog
+location <- info$location
+
+if(substr(location, start = 1, stop = 1) == tolower(substr(location, start = 1, stop = 1)))
+  location <- str_to_title(location, locale = "en")
+
+clock_rate <- posterior_model_parameters_for_P2$clockRate
+
+
+# info$estimated_cumu_infections_last_tip_exp_model <- unname(round(info$estimated_cumu_infections_last_tip_exp_model))
+# rownames(info$estimated_cumu_infections_last_tip_exp_model) = ""
+# info$estimated_cumu_infections_max_day_exp_model <- unname(round(info$estimated_cumu_infections_max_day_exp_model))
+# rownames(info$estimated_cumu_infections_max_day_exp_model) = ""
+
+primary_authors <- info$author
+pres_author <- "Lily Geidelberg, Olivia Boyd, Manon Ragonnet, David Jorgensen,  Igor Siveroni, Erik Volz"
+pres_date <- Sys.Date()
+
+ESSdf <- info$ESSdf
+
+```
+
+
+
+---
+title: "Phylodynamic Analysis: `r location`,: `r last_tip` "
+date: `r format(Sys.Date(), "%B %d, %Y")`
+---
+
+
+
+
+
+### Primary author: `r primary_authors`
+
+#### Olivia Boyd, Lily Geidelberg, David Jorgensen, Manon Ragonnet, Igor Siveroni, Erik Volz and the [Imperial College COVID-19 Response Team](http://sarscov2phylodynamics.org/about/)
+
+### Report prepared on `r pres_date`
+
+
+```{r arguments from orderly , echo = F, include = F}
+r_table <- read.csv("R_and_growth_rate.csv")
+
+if(info$model_plot_type == "default"){
+  
+
+  
+  r_table$Growth.rate..per.day. <- formatC(signif(r_table$Growth.rate..per.day.,digits=3), digits=3,format="fg", flag="#")
+  
+  growth_rate <- r_table$Growth.rate..per.day.
+  
+  colnames(r_table) <- c("Quantile", "Reproduction number", "Growth rate (per day)", "Doubling time (days)")
+}
+
+if(info$model_plot_type == "gmrf_exogsir"){
+  
+growth_rate <- info$growth_rate
+}
+
+```
+
+
+## Background information  
+
+
+
+
+#### This is analysis is based on : 
+  
+* **`r n_genomes_Il` whole genomes** sampled from **within `r location`**
+* **`r n_genomes_exog` whole genomes** sampled from outside of **`r location`**
+* Samples within `r location` were collected between **`r first_tip`** and **`r last_tip`**
+
+
+
+```{r sampling dist,  echo = F}
+knitr::include_graphics("sample_distribution.png")
+```
+
+*Figure 1: Sampling distributions over time of number of sequences included within the region versus sequences included from the international reservoir.*
+
+
+## How many are infected in `r location`?
+
+
+
+
+
+```{r Cumulative estimated infections through time,  echo = F}
+knitr::include_graphics("SEIJR_plot_size.png")
+```
+
+
+```{r Cumulative estimated infections through time log scale,  echo = F}
+knitr::include_graphics("SEIJR_plot_size_log.png")
+```
+
+
+*Figure 2: Estimated cumulative infections through time represented by solid black line (median) and 95% CrI (ribbon). Black points represent reported cases in `r location`. The dashed line indicates the date of last sample in `r location` in this analysis.*
+
+
+* Estimated cumulative infections at last sample (`r last_tip`): **`r info$infections_at_last_tip` [`r info$infections_at_last_tip_lower`-`r info$infections_at_last_tip_upper`]** median [95%CI]
+
+* Cumulative confirmed infections reported at `r last_tip`: **`r if(any(is.na(info$confirmed_infections_last_tip))) {"Data unavailable"} else {info$confirmed_infections_last_tip}`**  
+
+<!-- * Cumulative number of active infections at `r last_tip`:   -->
+
+
+
+```{r daily estimated infections through time,  echo = F}
+knitr::include_graphics("Daily.png")
+```
+
+
+```{r daily estimated infections through time log scale,  echo = F}
+knitr::include_graphics("Daily_log.png")
+```
+
+
+*Figure 3: Estimated daily  infections through time represented by solid black line (median) and 95% CrI (ribbon). Black points represent reported cases in `r location`. The dashed line indicates the date of last sample in `r location` in this analysis.*
+
+
+```{r reporting, echo = F}
+knitr::include_graphics("reporting.png")
+```
+
+*Figure 4: Estimated percentage of daily cases reported in `r location`. Error bars represent the 95% credible interval.*
+
+
+
+```{r Rt, echo = F}
+knitr::include_graphics("Rt.png")
+```
+
+*Figure 5: Reproduction number through time. The black vertical dashed line indicates the date of last sample in `r location` in this analysis. Orange and red dashed lines indicate dates of school closure and general lockdown in `r location`, respectively. *
+
+Reproduction number at last sample (`r last_tip`): **`r info$Rt_at_last_tip` [`r info$Rt_at_last_tip_lower`-`r info$Rt_at_last_tip_upper`]** median [95% CrI]
+
+
+## How quickly has the epidemic in `r location` grown?
+
+
+
+```{r table_gr,  echo = F, comment=NA}
+
+# xtable(r_table)
+
+if (doc.type == "docx") { pander::pander(r_table, caption ="Table 1: Reproduction number, growth rate and doubling times") } 
+
+
+if (doc.type == "gfm") { pander::pandoc.table(split.tables = Inf,r_table, style='rmarkdown', caption ="Reproduction number, growth rate and doubling times") }
+
+if (doc.type == "html") { 
+r_table %>%
+  kable(caption = "Table 1: Reproduction number, growth rate and doubling times", align = "cccc") %>%
+  kable_styling( full_width = F, position = "left")
+}
+
+
+```
+
+
+
+
+`r if (doc.type == "gfm") { pander::pandoc.table(r_table, style='rmarkdown', caption ="Table 1: Reproduction number, growth rate and doubling times") }`
+
+## How has SARS-CoV 2 evolved in `r location`?
+
+
+## *[placeholder for ML tree]*
+
+*Figure 6: Maximum likelihood phylogeny with the x-axis representing NT substitutions per site. The colour of the tips corresponds to sampling location; red tips were sampled from within the region, grey tips from outside*
+
+
+
+```{r mcc_tree,  echo = F}
+knitr::include_graphics("mcc.png")
+```
+
+*Figure 7: Time scaled phylogeny co-estimated with epidemiological parameters. The colour of the tips corresponds to location sampling; red tips were sampled from within `r location`, blue tips from outside.*
+
+
+
+
+##### Molecular clock rate of evolution: **`r format(median(clock_rate), digits=3)` [`r format(quantile(clock_rate, c(0.025)), digits=3)`-`r format(quantile(clock_rate, c(0.975)), digits=3)`]** median [95% CrI]  
+
+<!-- #### (optional) Number of introductions into `r location` (someone needs to write code to compute this) -->
+
+
+
+
+## Predicted cumulative infections over next 14 days (assuming exponential growth):
+
+
+
+```{r predicted infections through time,  echo = F}
+knitr::include_graphics("cumu_inf_exp_model.png")
+```
+
+*Figure 8: Cumulative estimated infections. The dashed line indicates the date of last sample in `r location` in this analysis. The points represent reported cases in `r location`.*
+
+Based on an estimated growth rate of `r growth_rate[1]` [`r growth_rate[2]` - `r growth_rate[3]`] median [95% CrI]:  
+
+We estimate cumulative number of infections at last sample (`r last_tip`) as: `r info$estimated_cumu_infections_last_tip_exp_model_med` [`r info$estimated_cumu_infections_last_tip_exp_model_low` - `r info$estimated_cumu_infections_last_tip_exp_model_upp`]
+
+We estimate number of infections at `r info$dates[2]` (`r as.integer(as.Date(info$dates[2])- as.Date(info$last_tip))` days after last sample) as:
+`r info$estimated_cumu_infections_max_day_exp_model_med` [`r info$estimated_cumu_infections_max_day_exp_model_low` - `r info$estimated_cumu_infections_max_day_exp_model_upp`]  
+
+
+
+
+## Methods summary
+
+
+
+Details on methods and priors can be [found here](http://whoinfectedwhom.org/seijr0.1.0_methods.pdf).
+
+
+
+
+```{r ESSdf_table,  echo = F, comment=NA}
+
+
+if (doc.type == "docx") { pander::pander(ESSdf, caption ="Effective sample size of model parameters") } 
+
+
+if (doc.type == "gfm") { pander::pandoc.table(split.tables = Inf,ESSdf, style='rmarkdown', caption ="Effective sample size of model parameters") }
+
+if (doc.type == "html") { 
+ESSdf %>%
+  kable(caption = "Effective sample size of model parameters", align = "cccc") %>%
+  kable_styling( full_width = F, position = "left")
+}
+
+
+```
+
+
+
+Model version: `r info$model_version`
+
+Report version: `r orderly_id`
+
+
+## Acknowledgements
+
+This work was supported by the [MRC Centre for Global Infectious Disease Analysis at Imperial College London](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis).
+
+Sequence data were provided by [GISAID](http://www.epicov.org) and [these laboratories](http://whoinfectedwhom.org/gisaid_cov2020_acknowledgement_table.xls).
+
+
