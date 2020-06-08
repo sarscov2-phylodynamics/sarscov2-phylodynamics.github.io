@@ -71,7 +71,7 @@ In this preliminary analysis we estimate **10612 [1807-74190]** (median [95%CI])
 ![plot of chunk daily estimated infections through time log scale]({{ site.url }}/assets/20200607-213403-ab612274/Daily_log.png)
 
 
-*Figure 3: Estimated daily  infections through time represented by solid black line (median) and 95% CrI (ribbon). Black points represent reported cases in Madinah. The dashed line indicates the date of last sample in Madinah in this analysis.*
+*Figure 3: Estimated daily  infections through time represented by solid black line (median) and 95% CrI (ribbon). Points represent reported cases in Madinah. The dashed line indicates the date of last sample in Madinah in this analysis.*
 
 
 ![plot of chunk reporting]({{ site.url }}/assets/20200607-213403-ab612274/reporting.png)
@@ -82,7 +82,7 @@ We estimate approximately 25% of cases in Madinah have been reported although th
 
 ![plot of chunk Rt]({{ site.url }}/assets/20200607-213403-ab612274/Rt.png)
 
-*Figure 5: Reproduction number through time. The black vertical dashed line indicates the date of last sample in Madinah in this analysis. Orange and red dashed lines indicate dates of school closure and general lockdown in Madinah, respectively. *
+*Figure 5: Reproduction number through time. The black vertical dashed line indicates the date of last sample in Madinah in this analysis. *
 
 Reproduction number at last sample (2020-04-20): **1.51 [0.273-1.92]** median [95% CrI]
 
@@ -115,7 +115,7 @@ Table: Reproduction number, growth rate and doubling times
 
 ![plot of chunk mcc_tree]({{ site.url }}/assets/20200607-213403-ab612274/mcc2.png){:width="450px"}
 
-*Figure 7: Time scaled phylogeny co-estimated with epidemiological parameters. The colour of the tips corresponds to location sampling; red tips were sampled from within Madinah.*
+*Figure 7: Time scaled phylogeny co-estimated with epidemiological parameters. The colour of the tips corresponds to sampling location; red tips were sampled from within Madinah.*
 
 We present a time-scaled phylogeny for the sequence data from Madinah and the international reservoir. Clustering of sequences from Madinah is varied.  Figure 7 shows clusters of local sequences at two disparate points in the phylogeny together with sequences clustered with those from other international reservoir regions. This suggests a number of independent introductions of SARS-CoV2 in to Madinah with internal transmission associated with some of these importation events. As support for internal nodes in the time scaled phylogeny is variable we have included a maximum likelihood tree showing the genetic relationship between sequences in figure 6.
 
