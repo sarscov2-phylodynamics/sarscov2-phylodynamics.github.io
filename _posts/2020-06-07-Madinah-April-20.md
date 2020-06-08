@@ -82,7 +82,7 @@ We estimate approximately 25% of cases in Madinah have been reported although th
 
 ![plot of chunk Rt]({{ site.url }}/assets/20200607-213403-ab612274/Rt.png)
 
-*Figure 5: Reproduction number through time. The black vertical dashed line indicates the date of last sample in Madinah in this analysis. *
+*Figure 5: Reproduction number through time. The black vertical dashed line indicates the date of last sample in Madinah in this analysis.*
 
 Reproduction number at last sample (2020-04-20): **1.51 [0.273-1.92]** median [95% CrI]
 
@@ -99,7 +99,7 @@ An out of sample prediction of Rt to the time of the last international sample i
 |   2.5%   |        1.49         |        0.0557         |         3.76         |
 |  97.5%   |        2.98         |         0.184         |         12.4         |
 
-Table: Reproduction number, growth rate and doubling times
+Table 1: Reproduction number, growth rate and doubling times
 
 
 
@@ -158,7 +158,7 @@ Details on methods and priors can be [found here](http://whoinfectedwhom.org/sei
 |   freqParameter.4   |  0.3245   | 14094 |
 
 
-Table: Effective sample size of model parameters
+Table 2: Effective sample size of model parameters
 
 
 
