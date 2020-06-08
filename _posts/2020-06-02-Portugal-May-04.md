@@ -95,7 +95,7 @@ In this  analysis we estimate **35595 [9810-181514]** median [95%CI] cumulative 
 
 ![plot of chunk Rt]({{ site.url }}/assets/20200602-193403-b45dfb4b/Rt.png)
 
-*Figure 5: Reproduction number through time. The black vertical dashed line indicates the date of last sample in Portugal in this analysis. Orange and red dashed lines indicate dates of school closure and general lockdown in Portugal, respectively. *
+*Figure 5: Reproduction number through time. The black vertical dashed line indicates the date of last sample in Portugal in this analysis. Orange and red dashed lines indicate dates of school closure and general lockdown in Portugal, respectively.*
 
 Reproduction number at last sample (2020-05-04): **0.249 [0.0812-0.909]** median [95% CrI]
 
