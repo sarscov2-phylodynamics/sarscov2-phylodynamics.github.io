@@ -1,5 +1,5 @@
 ---
-title: "Phylodynamic Analysis: Portugal,: 2020-05-04 "
+title: "Phylodynamic Analysis: Portugal: 2020-05-04 "
 date: June 02, 2020
 urlcolor: blue
 linkcolor: blue
@@ -89,7 +89,7 @@ In this  analysis we estimate **35595 [9810-181514]** median [95%CI] cumulative 
 
 ![plot of chunk reporting]({{ site.url }}/assets/20200602-193403-b45dfb4b/reporting.png)
 
-*Figure 4: Estimated percentage of daily cases reported in Portugal. Error bars represent the 95% credible interval.*
+*Figure 4: Estimated percentage of cases reported in Portugal. Error bars represent the 95% credible interval.*
 
 
 

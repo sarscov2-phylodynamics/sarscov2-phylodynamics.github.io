@@ -87,13 +87,13 @@ In this  analysis we estimate **50030 [10273-229885] ** median [95%CI] cumulativ
 
 ![plot of chunk reporting]({{ site.url }}/assets/20200603-222403-6500a88b/reporting.png)
 
-*Figure 4: Estimated percentage of daily cases reported in San Francisco. Error bars represent the 95% credible interval.*
+*Figure 4: Estimated percentage of cases reported in San Francisco. Error bars represent the 95% credible interval.*
 
 
 
 ![plot of chunk Rt]({{ site.url }}/assets/20200603-222403-6500a88b/Rt.png)
 
-*Figure 5: Reproduction number through time. The black vertical dashed line indicates the date of last sample in San Francisco in this analysis. Orange and red dashed lines indicate dates of school closure and general lockdown in San Francisco, respectively. *
+*Figure 5: Reproduction number through time. The black vertical dashed line indicates the date of last sample in San Francisco in this analysis. The red dashed line indicates the date of the general lockdown in San Francisco and the rest of California. *
 
 Reproduction number at last sample (2020-04-30): **0.472 [0.291-1.09]** median [95% CrI]
 
